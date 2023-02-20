@@ -1,0 +1,22 @@
+{
+    "name": "SysProd/yii2-jstree-widget",
+    "description": "jsTree widget for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","jstree","tree","widget","nested-sets"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SysProd Igor",
+            "email": "sys.prod@yahoo.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "vakata/jstree": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SysProd\\JsTreeWidget\\": ""
+        }
+    }
+}
